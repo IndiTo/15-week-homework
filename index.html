@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body class = "body">
+    <main class="container">
+
+<h2>Введите задачу</h2>
+<section class="input_task">
+<div>
+    <input class="input" type="text" id="task" name="задача">
+</div>
+<div>
+    <button class="button" type="button" id="send">Добавить</button>
+</div>
+</section>
+<section class="all_task">
+    <h2>Список задач</h2>
+    <div class="all_tasks" >
+        <p id="empty-list">Нет задач</p>
+    </div>
+    <br/>
+    <button id="delete" class="button2" onclick="deleteTasks()" disabled="true">Очистить список</button>
+</section>
+    </main>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>

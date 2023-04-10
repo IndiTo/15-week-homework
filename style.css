@@ -1,0 +1,12 @@
+html {
+    background-color: rgb(43, 226, 214);
+}
+
+li {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 150px;
+
+}
+
